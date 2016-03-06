@@ -27,3 +27,4 @@ git status -s // it will show the name of modified files
 #-------Generating ssh key-----------
 
 ssh-keygen -t rsa -C "faridbabu@outlook.com" // Here we are creating an rsa key
+git init  // Initialize empty repository ( current directory)
