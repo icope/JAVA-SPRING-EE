@@ -21,4 +21,9 @@ shift+ZZ //To get out of log report to command mode
 
 #-----Short cut------
 git log --online // show all commit report in summary 
+git commit -a -m "Message" // short cut commit  all modified file in the directory without add command
+git status -s // it will show the name of modified files 
 
+#-------Generating ssh key-----------
+
+ssh-keygen -t rsa -C "faridbabu@outlook.com" // Here we are creating an rsa key
