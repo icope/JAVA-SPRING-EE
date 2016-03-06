@@ -35,5 +35,5 @@ git remote add origin git@github.com:icope/JAVA-SPRING-EE.git
 
 //Here  git remote add origin git@github.com:icope/JAVA-SPRING-EE.git https/SSH  key in the repository
  #______________upload------------------
-
+git commit  -m "has been commit"
 git push origin master 
