@@ -27,4 +27,13 @@ git status -s // it will show the name of modified files
 #-------Generating ssh key-----------
 
 ssh-keygen -t rsa -C "faridbabu@outlook.com" // Here we are creating an rsa key
-git init  // Initialize empty repository ( current directory)
+git init  // Initialize empty repository ( current directory
+
+#---Connection to git --- creating a conneciton to origin 
+git remote add origin git@github.com:icope/JAVA-SPRING-EE.git
+
+
+//Here  git remote add origin git@github.com:icope/JAVA-SPRING-EE.git https/SSH  key in the repository
+ #______________upload------------------
+
+git push origin master 
