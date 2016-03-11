@@ -37,3 +37,10 @@ git remote add origin git@github.com:icope/JAVA-SPRING-EE.git
  #______________upload------------------
 git commit  -m "has been commit"
 git push origin master 
+
+#--------------------//Branching -------------------------
+
+git branch // will show  current branches 
+git branch  v2relies // will create new branch named v2relies 
+git checkout v2relies // will switch current branch to v2relies 
+git clone ssh_key_from_the_directory // clone the directory
